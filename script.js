@@ -41,3 +41,7 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+const isBirthday = false;
+const greeting = (isBirthday) ?
+    'С днём рождения, г-н Кузнецов! Хорошо вам повеселиться!' : 'Доброе утро, г-н Кузнецов.';
+console.log(greeting);
