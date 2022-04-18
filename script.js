@@ -46,6 +46,6 @@ const greeting = (isBirthday) ?
     'С днём рождения, г-н Кузнецов! Хорошо вам повеселиться!' : 'Доброе утро, г-н Кузнецов.';
 console.log(greeting);
 
-for (let i = 1; i < 6; i++) {
+for (let i = 0; i < 5; i++) {
     console.log(i);
 }
