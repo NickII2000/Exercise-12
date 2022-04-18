@@ -81,11 +81,11 @@ if (hamburger === 3 && cola || fries === 3 && nuggets) {
 
 
 let hamburger;
-const fries = NaN;
+const fries = 3;
 const cola = 0;
 const nuggets = 2;
 
-if (hamburger || cola || fries === 3 || nuggets) {
-    console.log(hamburger || cola || fries === 3 || nuggets);
+if (hamburger || cola || fries || nuggets) {
+    console.log(hamburger || cola || fries || nuggets);
     console.log('Done!');
 }
