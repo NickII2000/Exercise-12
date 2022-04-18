@@ -89,3 +89,16 @@ if (hamburger || cola || fries || nuggets) {
     console.log(hamburger || cola || fries || nuggets);
     console.log('Done!');
 }
+
+
+
+let hamburger;
+const fries = NaN;
+const cola = 0;
+const nuggets = 2;
+
+console.log(hamburger && cola || fries === 3 && nuggets);
+
+if (hamburger && cola || fries === 3 && nuggets) {
+    console.log('Done!');
+}
