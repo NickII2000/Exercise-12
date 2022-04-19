@@ -115,10 +115,11 @@ firstTask();
 // Место для второй задачи
 function secondTask() {
     // Пишем решение вот тут
-    for (let i = 20; i <= 10; i--) {
+    for (let i = 20; i >= 10; i--) {
         if (i === 13) {
             break;
         }
+        console.log(i);
     }
 
 }
@@ -150,14 +151,15 @@ function fourthTask() {
     // Пишем решение вот тут
     let i = 2;
     while (i <= 16) {
+
         if (i % 2 === 0) {
+            i++;
             continue;
         } else {
             console.log(i);
+            i++;
         }
-        i++;
     }
-
 }
 fourthTask();
 // Место для пятой задачи
@@ -173,4 +175,4 @@ function fifthTask() {
     // Не трогаем
     return arrayOfNumbers;
 }
-fifthTask();
+console.log(fifthTask());
