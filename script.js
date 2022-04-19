@@ -225,3 +225,26 @@ function thirdTask() {
     return result;
 }
 console.log(thirdTask());
+
+
+const lines = 5;
+let result = '';
+// Проверяется именно переменная result, формируйте строку в ней
+for (let i = 0; i <= lines; i++) {
+    for (let j = lines - i; j >= 0; j--) {
+        result += ' ';
+    }
+    for (let k = 0; k < i; k++) {
+        result += '*';
+    }
+    result += '*';
+    for (let k = 0; k < i; k++) {
+        result += '*';
+    }
+    for (let j = lines - i; j >= 0; j--) {
+        result += ' ';
+    }
+
+    result += '\n';
+}
+console.log(result);
